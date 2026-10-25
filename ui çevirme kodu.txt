@@ -1,0 +1,3 @@
+python -m PyQt6.uic.pyuic -x untitled.ui -o first.py
+
+pyside6-rcc resimler.qrc -o resimler.py

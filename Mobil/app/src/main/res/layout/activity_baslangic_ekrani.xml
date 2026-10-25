@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:padding="24dp">
+
+    <ImageView
+        android:id="@+id/main_logo"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/connio_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_hosgeldiniz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="#e8eaed"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="HOŞ GELDİNİZ"
+        android:textColor="#202124"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/main_logo" />
+
+    <EditText
+        android:id="@+id/et_ip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#e8eaed"
+        android:enabled="false"
+        android:hint="IP Adresi Alınıyor..."
+        android:textColor="#202124"
+        android:padding="14dp"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/tv_hosgeldiniz" />
+
+    <EditText
+        android:id="@+id/et_port"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="#e8eaed"
+        android:enabled="false"
+        android:hint="Port Numarası Alınıyor..."
+        android:textColor="#202124"
+        android:padding="14dp"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/et_ip" />
+
+    <EditText
+        android:id="@+id/et_kod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="#e8eaed"
+        android:hint="6 Haneli Bağlantı Kodunu Girin"
+        android:textColor="#202124"
+        android:inputType="number"
+        android:maxLength="6"
+        android:padding="14dp"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/et_port" />
+
+    <Button
+        android:id="@+id/btn_baglan"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#0ea651"
+        android:text="BAĞLAN"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:cornerRadius="8dp"
+        app:layout_constraintTop_toBottomOf="@id/et_kod" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

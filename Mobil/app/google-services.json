@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "149780664665",
+    "firebase_url": "https://ip-port-firebase-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "ip-port-firebase",
+    "storage_bucket": "ip-port-firebase.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149780664665:android:e2c8ba69881c46ddc4bc48",
+        "android_client_info": {
+          "package_name": "com.example.bitirme_22"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTMXsnyFcM8DKaebwmDbdMiYDJ4JiMoa4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
